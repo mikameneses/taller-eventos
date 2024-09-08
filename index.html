@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Página de saludo.</title>
+    <script src="eventos.js" defer></script>
+    <style>
+      /* Estilo para el div */
+      #myDiv {
+        padding: 5px;
+        background-color: green;
+      }
+    </style>
   </head>
   <body>
     <h1>Bienvenido a mi página</h1>
-     <button onclick="alert('Hola!')">Saludar</button>
+    <div id="myDiv">
+      <button onclick="alert('Hola!')">Saludar</button>
+    </div>
   </body>
 </html>
